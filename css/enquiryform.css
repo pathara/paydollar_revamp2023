@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+
+
+h1 		{color:#f7941d;}
+.remark	{text-align:right; font-size:90%; margin:0 !important; padding:0 !important}
+form .row div {margin:5px;}
+form label {margin-left:8px;}
+#floatingTextarea2 {height:100px;}
+h5  {font-size:160%; line-height:22pt; margin-top:15px;}
+.form-check-label {padding-left:0px; margin-left:0}
+#floatingTextarea2 {padding-top:40px;}
+
+
+@media (min-width:280px){
+	body {font-size:10pt;}
+	h1 {font-size:150%;}
+	
+	
+}
+
+@media (min-width:768px){
+	body {font-size:11pt;}
+	h1 {font-size:180%;}
+	
+}
+
+@media (min-width:992px){
+	body {font-size:12pt;}
+	h1 {font-size:200%;}
+	#floatingTextarea2 {padding-top:30px;}
+	
+}
+
+@media (min-width:1024px) { 
+	body { font-size:12.5pt;}
+	h1 {font-size:250%;}
+	
+	.remark	{font-size:100%;}
+	form .row div {margin:0;}
+	form .row {margin-bottom:20px;}
+	.list-group-item {padding:0; border:0; padding-right:22px;}
+	.list-group li:last-child {padding-right:0;}
+}
+body, .container, .list-group-item {background:none; background-color:transparent;}
